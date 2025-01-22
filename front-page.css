@@ -1,17 +1,18 @@
 body {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
+    font-family: "Libre Franklin", serif;
+    font-weight: 10px;
     font-style: normal;
     padding: 0;
     display: flex; /* Makes the body a flex containter */
     min-height: 100vh; /* Full viewport height */
     margin: 0;
     overflow: hidden; /* prevents scrolling */
+    background-color: black;
 }
 
 .title-rectangle {
     flex: 1;
-    background-color: #19338a;
+    background: linear-gradient(135deg, #43667B, #19338a);
     width: 50%;
     display: flex;
     align-items: center; /* centers items horizontally */
@@ -20,6 +21,9 @@ body {
     gap: 30px; /* Space between elements */
     justify-content: flex-start; /*moves items to the top */
     text-align: center;
+    border-left: 1px outset;
+    /* border-radius: 15px; */
+    border-color: #43667B;
 }
 
 .dream-backround-img {
@@ -31,7 +35,7 @@ body {
 
 .title-text {
     margin-bottom: 10px;
-    font-size: 44px;
+    font-size: 35px;
 }
 
 .login-button,
