@@ -10,6 +10,12 @@ body {
     background: linear-gradient(160deg, #43667B, #19338a);
 }
 
+.middle-div {
+    max-height: 500px;
+    background-color: aquamarine;
+    width: 100%;
+}
+
 .welcoming-div {
     display: flex;
     flex-direction: column;
@@ -17,6 +23,8 @@ body {
     /* padding-top: 180px; */
     padding: 220px;
 }
+
+
 
 .title-box {
 background-color: gray;
