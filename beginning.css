@@ -44,9 +44,9 @@ padding: 80px;
 margin-left: 900px;
 margin-top: -180px;
 border-radius: 15px;
-
 }
 
 
 
 /* create a way to line up both the text welcoming-div and .title-box along the middle of the screen across the screen
+create media query selections for each screen resolution
