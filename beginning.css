@@ -46,6 +46,18 @@ margin-top: -180px;
 border-radius: 15px;
 }
 
+@media (max-width: 1440px) { /* macbook */
+    .title-box {
+        width: 400px;
+        padding: 40px;
+        margin-top: -120px;
+        margin-right: 250px;
+    }
+    .welcoming-div {
+        padding-right: 800px;
+    }
+}
+
 
 
 /* create a way to line up both the text welcoming-div and .title-box along the middle of the screen across the screen
