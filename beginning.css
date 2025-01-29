@@ -33,7 +33,7 @@ body {
 }
 
 .title-box {
-background-color: gray;
+background-color: #fff;
 /* width: 540px; */
 max-width: 540px;
 max-height: 900px;
@@ -44,21 +44,32 @@ flex-direction: column;
 margin-left: 900px;
 margin-top: -180px; */
 border-radius: 15px;
+color: #002765;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: #edeef0;
+    border-radius: 15px;
+    flex: 1;
+    padding: 15px;
 }
 
 @media (max-width: 1440px) { /* macbook */
     .title-box {
         width: 400px;
         padding: 40px;
-        margin-top: -120px;
-        margin-right: 250px;
+        margin-top: -80px;
+        margin-left: 600px;
     }
+
     .welcoming-div {
         padding-right: 800px;
     }
 }
 
-@media (max-width: 1920px) { /* 24-inch monitor */
+@media (min-width: 1441px) and (max-width: 1920px) { /* 24-inch monitor */
     .title-box {
         width: 540px;
         padding: 80px;
@@ -77,7 +88,7 @@ border-radius: 15px;
     }
 }
 
-@media (max-width: 2560px) {
+@media (min-width: 1921px) and (max-width: 2560px) {
     .title-box {
         width: 600px;
         padding: 140px;
