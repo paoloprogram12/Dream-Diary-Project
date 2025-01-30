@@ -56,6 +56,21 @@ input {
     padding: 15px;
 }
 
+.create-button {
+    border: none;
+    background: transparent;
+    /* font-size: 16px; */
+}
+
+.sign-up {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 1440px) { /* macbook */
     .title-box {
         width: 400px;
