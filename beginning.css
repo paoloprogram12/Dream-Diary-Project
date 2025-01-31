@@ -71,6 +71,23 @@ input {
     text-decoration: underline;
 }
 
+.login-button {
+    border: none;
+    cursor: pointer;
+    background-color: #0F52BA;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.login-button:hover {
+    background-color: #0c3a80;
+}
+
+.login-button:active {
+    background-color: #062d5a;
+}
+
 @media (max-width: 1440px) { /* macbook */
     .title-box {
         width: 400px;
@@ -86,7 +103,7 @@ input {
 
 @media (min-width: 1441px) and (max-width: 1920px) { /* 24-inch monitor */
     .title-box {
-        width: 540px;
+        width: 400px;
         padding: 80px;
         margin-left: 900px;
         margin-top: -90px;
