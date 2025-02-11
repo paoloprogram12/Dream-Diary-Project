@@ -79,6 +79,13 @@ input {
     color: white;
     padding: 10px;
     border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.sign-up {
+    text-decoration: none;
+    color: black;
 }
 
 .login-button:hover {
