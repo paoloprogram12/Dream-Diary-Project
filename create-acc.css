@@ -1,3 +1,19 @@
 body {
     background: linear-gradient(130deg, #392674, #03073a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.white-box {
+    background-color: white;
+    max-width: 540px;
+    max-height: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+
 }
